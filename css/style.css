@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+h2,
+h4 {
+    padding: 20px 0;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(240, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 580px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+}
+
+li {
+    padding: 20px 20px;
+    display: flex;
+    border-radius: 10px;
+}
+
+li:hover {
+    background-color: rgba(183, 207, 228, 0.856);
+    cursor: pointer;
+}
